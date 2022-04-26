@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Relative humidity sensor"
   },
+  "description": {
+    "en": "Measurement unit: %"
+  },
   "extends": "dtmi:digitaltwins:rec_3_3:device:HumiditySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

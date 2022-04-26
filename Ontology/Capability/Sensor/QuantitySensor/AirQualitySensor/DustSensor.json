@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:TemperatureSensor;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:device:DustSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -11,13 +11,15 @@
         "en": "last value"
       },
       "name": "lastValue",
-      "schema": "double",
-      "unit": "degreeCelsius",
+      "schema": "integer",
       "writable": true
     }
   ],
+  "description": {
+    "en": "Measurement unit: pcs/L"
+  },
   "displayName": {
-    "en": "Temperature sensor"
+    "en": "Dust sensor"
   },
   "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
